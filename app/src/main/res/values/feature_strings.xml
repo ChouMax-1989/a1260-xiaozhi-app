@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="feature_hub_title">功能与插件</string>
+    <string name="feature_hub_description">管理本机音量、媒体按键和内置工具。</string>
+    <string name="feature_device_heading">本机状态</string>
+    <string name="feature_status_loading">正在读取状态…</string>
+    <string name="feature_refresh">刷新本机状态</string>
+    <string name="feature_plugin_heading">内置插件</string>
+    <string name="feature_plugin_help">开关会保存。关闭后，该组工具不再开放给会话，也不能通过下方按钮调用。此版本仅运行内置工具。</string>
+    <string name="feature_plugin_device">设备信息 · 音量、电量、可用内存</string>
+    <string name="feature_plugin_audio">音量控制 · 调整、静音与恢复</string>
+    <string name="feature_plugin_media">媒体控制 · 播放、暂停与切歌</string>
+    <string name="feature_audio_heading">音量</string>
+    <string name="feature_volume_down">音量 −</string>
+    <string name="feature_volume_up">音量 ＋</string>
+    <string name="feature_mute">静音</string>
+    <string name="feature_unmute">取消静音</string>
+    <string name="feature_media_heading">媒体按键</string>
+    <string name="feature_media_help">请先在播放器中打开音乐。按键交给系统当前媒体会话处理；发送按键不代表已确认播放，实际响应取决于播放器。</string>
+    <string name="feature_media_play">播放</string>
+    <string name="feature_media_pause">暂停</string>
+    <string name="feature_media_previous">上一首</string>
+    <string name="feature_media_next">下一首</string>
+    <string name="feature_no_operation">尚未操作</string>
+    <string name="feature_operation_done">操作完成，已刷新音量状态。</string>
+    <string name="feature_operation_failed">未完成：插件已关闭、参数不受支持，或系统限制了此操作。</string>
+    <string name="feature_media_sent">媒体按键已发送给系统，请确认播放器响应。</string>
+    <string name="feature_agent_heading">智能体与角色</string>
+    <string name="feature_agent_help">角色、声音和设备归属由你的小智服务器账号管理。下面会在系统浏览器打开官方控制台，请在浏览器登录自己的账号。</string>
+    <string name="feature_open_agents">打开官方智能体管理</string>
+    <string name="feature_tools_heading">当前可用 MCP 工具</string>
+    <string name="feature_tools_help">列表与会话实际开放的工具一致。状态只保留本次进程内的最后一次本机或会话调用，不记录参数和对话内容。媒体工具的成功仅表示已发送按键。</string>
+    <string name="feature_tool_not_called">可用 · 尚未调用</string>
+    <string name="feature_tool_success">可用 · 上次执行成功</string>
+    <string name="feature_tool_failed">可用 · 上次执行失败</string>
+    <string name="feature_no_tools">没有已启用且受系统支持的工具。</string>
+    <string name="feature_close">返回</string>
+    <string name="feature_audio_unavailable">音频服务不可用，或系统限制了状态读取。</string>
+    <string name="feature_status_format">媒体音量：%1$d%% · %2$s\n%3$s</string>
+    <string name="feature_muted">已静音</string>
+    <string name="feature_unmuted">未静音</string>
+    <string name="feature_music_active">系统检测到媒体音频活动</string>
+    <string name="feature_music_inactive">系统未检测到媒体音频活动</string>
+    <string name="feature_browser_unavailable">没有可打开官方控制台的浏览器，请先安装或启用浏览器。</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="music_track" />
+    <item type="id" name="music_status" />
+    <item type="id" name="music_lyrics" />
+    <item type="id" name="music_select_audio" />
+    <item type="id" name="music_select_lyrics" />
+    <item type="id" name="music_play" />
+    <item type="id" name="music_pause" />
+    <item type="id" name="music_stop" />
+    <item type="id" name="music_seek" />
+    <item type="id" name="apps_count" />
+    <item type="id" name="apps_clear" />
+    <string name="music_title">本地音乐与歌词</string>
+    <string name="music_help">选择本地音频后点播放。返回页面可继续播放；停止会释放播放器和音频焦点。此播放器不查询或下载在线音乐。</string>
+    <string name="music_no_track">尚未选择音频</string>
+    <string name="music_local_audio">本地音频</string>
+    <string name="music_ready">已选择，等待播放</string>
+    <string name="music_select_audio">选择本地音频</string>
+    <string name="music_select_lyrics">选择 LRC 歌词</string>
+    <string name="music_play">播放</string>
+    <string name="music_pause">暂停</string>
+    <string name="music_stop">停止</string>
+    <string name="music_playing">正在播放</string>
+    <string name="music_paused">已暂停</string>
+    <string name="music_stopped">已停止</string>
+    <string name="music_completed">播放结束</string>
+    <string name="music_preparing">正在准备音频…</string>
+    <string name="music_failed">无法播放，请重新选择可读取且受系统支持的音频。</string>
+    <string name="music_prepare_timeout">音频准备超时，请检查文件后重试。</string>
+    <string name="music_focus_denied">其他应用正使用音频，请稍后点播放。</string>
+    <string name="music_notification_channel">本地音乐播放</string>
+    <string name="music_zero_time">00:00 / 00:00</string>
+    <string name="music_seek">播放进度</string>
+    <string name="music_lyrics_help">可选择 UTF-8 或 UTF-16 编码的 LRC，最多 128 KiB。支持逐行时间戳、多时间戳和 offset；正 offset 提前显示。歌词仅保留在播放器进程内。</string>
+    <string name="music_lyrics_loading">正在读取歌词…</string>
+    <string name="music_lyrics_loaded">已读取 %1$d 个歌词时间点。</string>
+    <string name="music_import_failed">无法读取所选文件，或没有有效的歌词时间戳。</string>
+    <string name="music_no_lyrics">尚未选择歌词</string>
+    <string name="music_waiting_lyrics">等待歌词…</string>
+    <string name="music_picker_unavailable">系统文件选择器不可用。</string>
+    <string name="apps_title">选择可启动的应用</string>
+    <string name="apps_plugin">应用白名单 · 仅你明确选择的应用</string>
+    <string name="apps_help">默认不开放任何应用。勾选后，会话可请求启动该应用；应用包名将出现在工具列表中。取消勾选即可撤销。选择本身不会打开应用，系统可能限制后台启动。</string>
+    <string name="apps_empty">没有可选择的启动应用；请检查系统应用与应用可见性配置。</string>
+    <string name="apps_limit">最多选择 16 个应用；应用也必须仍可从桌面启动。</string>
+    <string name="apps_count">当前可启动白名单：%1$d / %2$d</string>
+    <string name="apps_clear">清空应用白名单</string>
+</resources>

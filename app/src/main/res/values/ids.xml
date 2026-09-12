@@ -1,0 +1,23 @@
+<resources>
+    <item type="id" name="chat_message_list" />
+    <item type="id" name="chat_input_panel" />
+    <item type="id" name="chat_composer" />
+    <item type="id" name="chat_send" />
+    <item type="id" name="chat_push_to_talk" />
+    <item type="id" name="chat_mode_toggle" />
+    <item type="id" name="chat_clear" />
+    <item type="id" name="chat_waiting" />
+    <item type="id" name="chat_emotion" />
+    <item type="id" name="chat_status" />
+    <item type="id" name="chat_activation_panel" />
+    <item type="id" name="chat_more" />
+    <item type="id" name="chat_connect" />
+    <item type="id" name="chat_settings" />
+    <item type="id" name="chat_self_test" />
+    <item type="id" name="chat_features" />
+    <item type="id" name="chat_wake" />
+    <item type="id" name="chat_stop" />
+    <item type="id" name="chat_activation_refresh" />
+    <item type="id" name="chat_activation_cancel" />
+    <item type="id" name="chat_activation_rebind" />
+</resources>

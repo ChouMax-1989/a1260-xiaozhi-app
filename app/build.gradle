@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'io.github.choumax.a1260xiaozhi'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'io.github.choumax.a1260xiaozhi'
+        minSdk 30
+        targetSdk 30
+        versionCode 10
+        versionName '0.5.3'
+        ndk { abiFilters 'armeabi-v7a' }
+        testInstrumentationRunner 'io.github.choumax.a1260xiaozhi.wake.KwsDeviceInstrumentation'
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+    buildFeatures { buildConfig true }
+    androidResources { noCompress += ['ogg', 'onnx'] }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    testBuildType 'release'
+    testOptions { unitTests.returnDefaultValues = true }
+    lint {
+        // This APK is sideloaded onto the fixed Android 11 A1260 image. Target 30 keeps
+        // the platform behavior matched to that device; it is not a Google Play build.
+        disable 'ExpiredTargetSdkVersion'
+    }
+}
+
+dependencyLocking {
+    lockAllConfigurations()
+}
+
+dependencies {
+    implementation files('libs/sherpa-onnx-1.13.7.aar')
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}

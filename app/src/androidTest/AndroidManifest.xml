@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation
+        android:name="io.github.choumax.a1260xiaozhi.wake.KwsDeviceInstrumentation"
+        android:targetPackage="io.github.choumax.a1260xiaozhi" />
+    <instrumentation
+        android:name="io.github.choumax.a1260xiaozhi.ConversationEndCueDeviceInstrumentation"
+        android:targetPackage="io.github.choumax.a1260xiaozhi" />
+    <instrumentation
+        android:name="io.github.choumax.a1260xiaozhi.FollowUpDeviceInstrumentation"
+        android:targetPackage="io.github.choumax.a1260xiaozhi" />
+    <instrumentation
+        android:name="io.github.choumax.a1260xiaozhi.PlaybackLatencyDeviceInstrumentation"
+        android:targetPackage="io.github.choumax.a1260xiaozhi" />
+</manifest>
