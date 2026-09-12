@@ -16,6 +16,8 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407
       - name: Install required SDK packages
         run: sdkmanager 'platforms;android-35' 'build-tools;34.0.0'
       - name: Verify public assets
